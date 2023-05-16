@@ -1,0 +1,57 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-img {
+  width: 50%;
+}
+
+.failure-head {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+
+.main-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.web-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+
+.web-head {
+  color: #2cc6c6;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.web-sec-head {
+  color: #cbd5e1;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
